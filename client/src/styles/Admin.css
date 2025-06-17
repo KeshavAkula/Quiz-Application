@@ -1,0 +1,65 @@
+/* styles/Admin.css */
+
+.admin-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.admin-form label {
+  font-weight: 600;
+  margin-top: 1rem;
+  display: block;
+  color: #555;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="number"],
+.admin-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.admin-form button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: #0056b3;
+}
+
